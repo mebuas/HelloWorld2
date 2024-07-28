@@ -1,0 +1,175 @@
+# https://www.toptal.com/developers/gitignore/api/kotlin,android,androidstudio,intellij+all tarafından oluşturuldu
+# https://www.toptal.com/developers/gitignore?templates=kotlin,android,androidstudio,intellij+all adresinden düzenleyin
+
+### Android ###
+# Gradle dosyaları
+.gradle/
+inşa etmek/
+
+# Yerel yapılandırma dosyası (sdk yolu, vb.)
+yerel.özellikler
+
+# Günlük/İşletim Sistemi Dosyaları
+*.kayıt
+
+# Android Studio tarafından oluşturulan dosyalar ve klasörler
+yakalar/
+.hariciYerelYapı/
+.cxx/
+*.apk
+çıktı.json
+
+# IntelliJ
+*.iml
+.fikir/
+çeşitli.xml
+dağıtımHedefAçılan.xml
+render.deneysel.xml
+
+# Anahtar deposu dosyaları
+*.jks
+*.anahtar deposu
+
+# Google Hizmetleri (örneğin API'ler veya Firebase)
+google-hizmetleri.json
+
+# Android Profilleme
+*.hprof
+
+### Android Yaması ###
+gen-harici-apklib'ler
+
+# .externalNativeBuild dizinlerinin değiştirilmesi tanıtıldı
+# Android Studio 3.5 ile.
+
+### Intellij+tümü ###
+# JetBrains IDE'lerini kapsar: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm ve Rider
+# Referans: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Kullanıcıya özel şeyler
+.idea/**/çalışma alanı.xml
+.idea/**/görevler.xml
+.idea/**/kullanım.istatistikleri.xml
+.idea/**/sözlükler
+.idea/**/raf
+
+# AWS Kullanıcıya Özel
+.fikir/**/aws.xml
+
+# Oluşturulan dosyalar
+.idea/**/içerikModel.xml
+
+# Hassas veya yüksek kayıplı dosyalar
+.idea/**/veriKaynakları/
+.idea/**/dataKaynaklar.ids
+.idea/**/dataKaynaklar.local.xml
+.idea/**/sqlDataKaynakları.xml
+.fikir/**/dinamik.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/kütüphaneler
+
+# Gradle ve Maven otomatik içe aktarma ile
+# Gradle veya Maven'ı otomatik içe aktarma ile kullanırken, modül dosyalarını hariç tutmalısınız,
+# yeniden oluşturulacakları ve çalkantıya neden olabilecekleri için. Kullanıyorsanız yorumlamayı kaldırın
+# otomatik-ithalat.
+# .fikir/eserler
+# .idea/derleyici.xml
+# .idea/jarDepoları.xml
+# .idea/modüller.xml
+# .idea/*.iml
+# .idea/modüller
+# *.iml
+# *.ipr
+
+# CMake
+cmake-inşa-*/
+
+# Mongo Explorer eklentisi
+.idea/**/mongoAyarları.xml
+
+# Dosya tabanlı proje biçimi
+*.iws
+
+# IntelliJ
+dışarı/
+
+# mpeltonen/sbt-idea eklentisi
+.idea_modülleri/
+
+# JIRA eklentisi
+atlassian-ide-eklentisi.xml
+
+# Cursive Clojure eklentisi
+.idea/replstate.xml
+
+# SonarLint eklentisi
+.idea/sonarlint/
+
+# Crashlytics eklentisi (Android Studio ve IntelliJ için)
+com_crashlytics_dışa_aktarma_dizeleri.xml
+crashlytics.özellikleri
+crashlytics-oluşturma.özellikleri
+kumaş.özellikleri
+
+# Editör tabanlı Rest Client
+.idea/httpİstekler
+
+# Android studio 3.1+ serileştirilmiş önbellek dosyası
+.idea/caches/build_file_checksums.ser
+
+### Intellij+all Yama ###
+# Kod stili ayarları ve çalıştırma yapılandırmaları dışında her şeyi göz ardı edin
+# Takımlar arasında paylaşılması gerekenler.
+
+.fikir/*
+
+!.fikir/kodStiller
+!.idea/runYapılandırmaları
+
+### Kotlin ###
+# Derlenmiş sınıf dosyası
+*.sınıf
+
+# Log dosyası
+
+# BlueJ dosyaları
+*.ctxt
+
+# Java için Mobil Araçlar (J2ME)
+.mtj.tmp/
+
+# Paket Dosyaları #
+*.kavanoz
+*.savaş
+*.nar
+*.kulak
+*.zip
+*.tar.gz
+*.rar
+
+# sanal makine çökme günlükleri için bkz. http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+tekrar_oynatma_pid*
+
+### AndroidStudio ###
+# Android Studio kullanılarak yapılan Android geliştirmelerinde göz ardı edilecek dosyaları kapsar.
+
+# Uygulama dosyaları oluşturuldu
+*.ap_
+*.aab
+
+# ART/Dalvik VM için dosyalar
+*.dex
+
+# Java sınıf dosyaları
+
+# Oluşturulan dosyalar
+çöp Kutusu/
+nesil/
+
+# Gradle dosyaları
+.gradle
